@@ -1,1 +1,1 @@
-It is the ecommerce eebsite
+It is the ecommerce Website
