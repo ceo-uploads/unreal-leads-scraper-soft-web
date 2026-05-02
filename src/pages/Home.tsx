@@ -373,9 +373,7 @@ const Home = () => {
             <div className="bg-black border border-white/5 rounded-[30px] md:rounded-[40px] overflow-hidden aspect-video relative group shadow-2xl">
               <iframe 
                 className="w-full h-full opacity-60 group-hover:opacity-100 transition-opacity"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="English Tutorial"
-                allowFullScreen
+                src="https://www.youtube.com/embed/n7MtXiL-F0M?si=lkykAk8gLnrnSDyo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
               />
               <div className="absolute top-4 left-4 md:top-6 md:left-6 px-4 py-2 bg-cyan-500 text-black rounded-full text-[8px] md:text-[9px] font-black uppercase tracking-widest italic">{language === 'en' ? 'English Guide' : 'ইংরেজি গাইড'}</div>
             </div>
@@ -383,9 +381,7 @@ const Home = () => {
             <div className="bg-black border border-white/5 rounded-[30px] md:rounded-[40px] overflow-hidden aspect-video relative group shadow-2xl">
               <iframe 
                 className="w-full h-full opacity-60 group-hover:opacity-100 transition-opacity"
-                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
-                title="Bangla Tutorial"
-                allowFullScreen
+                src="https://www.youtube.com/embed/muapNZSWMuY?si=XGU-2wDEKnMEMLnH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
               />
               <div className="absolute top-4 left-4 md:top-6 md:left-6 px-4 py-2 bg-cyan-500 text-black rounded-full text-[8px] md:text-[9px] font-black uppercase tracking-widest italic">{language === 'bn' ? 'বাংলা গাইড' : 'Bangla Guide'}</div>
             </div>
@@ -429,8 +425,8 @@ const Home = () => {
           </div>
 
           <div className="grid grid-cols-2 sm:flex items-center gap-6 md:gap-10">
-            <SocialLink href="https://facebook.com" icon={<Facebook size={24} />} label={t('allPlatforms')} />
-            <SocialLink href="https://youtube.com" icon={<Youtube size={24} />} label="YouTube" />
+            <SocialLink href="https://www.facebook.com/profile.php?id=61560215459038" icon={<Facebook size={24} />} label={t('allPlatforms')} />
+            <SocialLink href="https://www.youtube.com/@StackNBuild" icon={<Youtube size={24} />} label="YouTube" />
             <SocialLink href="https://instagram.com" icon={<Instagram size={24} />} label="Instagram" />
             <SocialLink href="https://twitter.com" icon={<Twitter size={24} />} label="X Site" />
           </div>

@@ -67,7 +67,7 @@ const Login = () => {
                   <div className="w-full border-t border-white/5"></div>
                 </div>
                 <div className="relative flex justify-center text-[7px] md:text-[8px] uppercase font-black tracking-[0.4em] text-zinc-700 italic">
-                  <span className="bg-[#0a0a0a] px-4 md:px-5">KEY_PROTOCOL</span>
+                  <span className="bg-[#0a0a0a] px-4 md:px-5">Authentication</span>
                 </div>
               </div>
 

@@ -24,7 +24,7 @@ export const translations = {
     bn: "আপনার প্ল্যান বেছে নিন"
   },
   pricingSubtitle: {
-    en: "Select a license to start extracting leads. All premium plans include our software and 4M+ verified USA leads.",
+    en: "Select a license to start extracting leads. All premium plans include our software and 4M+ verified USA leads. Secure and fast payment support.",
     bn: "লিড এক্সট্রাকশন শুরু করতে একটি লাইসেন্স বেছে নিন। সব প্রিমিয়াম প্ল্যানে সফটওয়্যার এবং ৪০ লক্ষেরও বেশি ইউএসএ ভেরিফাইড লিড থাকবে।"
   },
   freeTrialDescription: {

@@ -342,9 +342,9 @@ const PaymentModal = ({ package: pkg, onClose }: { package: SoftwarePackage, onC
 
   const getInstructions = () => {
     switch (method) {
-      case 'bkash': return { num: '01XXXXXXXXX', type: 'bKash', msg: language === 'bn' ? 'শুধুমাত্র সেন্ড মানি করুন' : 'Only Send Money' };
-      case 'nagad': return { num: '01XXXXXXXXX', type: 'Nagad', msg: language === 'bn' ? 'শুধুমাত্র সেন্ড মানি করুন' : 'Only Send Money' };
-      case 'nsave': return { num: '@unreal_ntag', type: 'Nsave', msg: 'Standard Delivery' };
+      case 'bkash': return { num: '01316366720', type: 'bKash', msg: language === 'bn' ? 'শুধুমাত্র সেন্ড মানি করুন' : 'Only Send Money' };
+      case 'nagad': return { num: '01316366720', type: 'Nagad', msg: language === 'bn' ? 'শুধুমাত্র সেন্ড মানি করুন' : 'Only Send Money' };
+      case 'nsave': return { num: '@rayhan_md4', type: 'Nsave', msg: 'Standard Delivery' };
       case 'gpay': return { num: 'gpay_id', type: 'Google Pay', msg: 'International Payment' };
       case 'binance': return { num: 'BEP20_ADDRESS_XYZ', type: 'USDT', msg: 'Crypto Payment' };
     }
@@ -409,7 +409,7 @@ const PaymentModal = ({ package: pkg, onClose }: { package: SoftwarePackage, onC
             {/* Account Display */}
             <div className="bg-cyan-500/5 border border-cyan-500/10 rounded-[24px] md:rounded-[32px] p-6 md:p-8 mb-8 md:mb-10 relative overflow-hidden">
               <div className="flex items-center justify-between mb-4 relative z-10">
-                <span className="text-[10px] font-black text-cyan-500 uppercase tracking-widest italic">{instruction.type} TERMINAL</span>
+                <span className="text-[10px] font-black text-cyan-500 uppercase tracking-widest italic">{instruction.type} <span>Payment</span></span>
               </div>
               <div className="flex items-center justify-between gap-4 relative z-10">
                 <code className="text-lg md:text-2xl font-mono text-white tracking-widest italic truncate">{instruction.num}</code>
